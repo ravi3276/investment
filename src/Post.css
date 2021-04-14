@@ -1,0 +1,187 @@
+.post{
+    flex:0.75;
+    /* background-color:red; */
+}
+.post__header{
+    display: flex;
+}
+
+.post__headerleft{
+    display: flex;
+    flex:0.70;
+    flex-direction: column;
+    background-color: lightgray;
+    /* width: 600px; */
+}
+
+.post__headerlefttop{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.post__headerlefttop h5{
+    padding:15px;
+    font-weight: 400;
+}
+
+.post__headerlefttop h5:hover{
+        background-color:white;
+        font-weight:600;
+        cursor: pointer;
+        /* width: 250px; */
+}
+
+.post__headerleftbody{
+    display: flex;
+    flex-direction:column;
+    /* align-items:center; */
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.post__headerleftbodyinner{
+    display: flex;
+    align-items:center;
+    margin-top: 13px;
+
+}
+
+.icon{
+    /* height:100px !important; */
+    /* font-size: 20px; */
+    color:black;
+    opacity: 0.6;
+}
+.post__headerleftbody small{
+    width: 450px;
+    /* font-size:10px; */
+    font-weight: 300;
+}
+
+.post__headerleftbody small a{
+    margin-left: 3px;
+    margin-right: 3px;
+    color:blue;
+}
+/* 
+:any-link{
+    color:blue;
+
+} */
+
+.post__headerright{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left:4px;
+    background-color:lightgray;
+}
+
+.post__headerrighttop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__headerrightinner{
+    margin-top:30px;
+    padding-bottom:30px;
+}
+
+.post__headerright h5{
+    padding:15px;
+    font-weight: 400;
+    padding-right: 20px;
+    margin-right: 30px;
+    /* border-right: 1px solid #f8f8f8; */
+}
+
+
+.post__headerright h5:hover{
+    background-color:white;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.post__headerrightinner {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.post__headerrightinner p{
+    font-size:8px;
+    font-weight:300;
+}
+
+.post__body{
+    flex: 1;
+    display: flex;
+    background-color:lightgray;
+    margin-top: 8px;
+    /* height:100vh; */
+}
+/* 
+.post__body h1{
+    background-color:blue;
+    flex: 1;
+    width: 100vw;
+} */
+
+.mockinvestment{
+  margin-top:5px;
+}
+
+.mock{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:lightgray;
+}
+
+.mock h2{
+    font-weight: 400;
+    padding:10px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mock1 h2{
+     font-weight: 400;
+    padding:10px;
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mock h2:hover{
+    color:white;
+    background-color:gray;
+    cursor: pointer;
+    /* width:500%; */
+}
+
+.mockguide{
+    margin-top:2px;
+    background-color:lightgray;
+}
+
+.mockguide p{
+    /* padding: 10px; */
+    margin-top:2px;
+    margin-left:15px;
+    font-size: 10px;
+    font-weight: 300;
+    /* opacity: 0.7; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mockguidep1{
+    padding-top:20px;
+}
+
+.mockguidep2{
+    padding-bottom:30px;
+
+}

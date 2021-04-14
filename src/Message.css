@@ -1,0 +1,131 @@
+.message{
+    flex: 0.25;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.message__tab{
+    display: flex;
+    flex-direction:column;
+    background-color: lightgrey;
+    height:300px;
+} 
+
+.message__header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom: 1px solid grey;
+}
+
+.message__header h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.message__header button{
+    background-color:lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message__bodymessage{
+    font-size: 8px;
+    font-weight:300;
+    margin: 10px;
+}
+
+.message__date{
+    font-size: xx-small;
+    margin: 10px;
+    font-weight:300;
+}
+
+.message__tab1{
+    background-color: lightgrey;
+    margin-top: 7px;
+    /* height: 100vh; */
+    width:500px;
+}
+
+.message__tab1header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.message__membersearch{
+    display: flex;
+    align-items: center;
+    
+}
+
+.message__tab1header h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.message__membersearch button{
+    background-color:lightgrey;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.message__tab2{
+    margin-top:5px;
+}
+
+.message__tab2 h5{
+    background-color: grey;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding:10px;
+    font-weight:200;
+}
+
+.message__tab2 p{
+    font-size: 10px;
+    padding:10px;
+    font-weight:300;
+}
+
+.message__tab2 p a{
+    margin-left: 5px;
+    color:blue;
+}
+
+.tab2header1{
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.tab2header__input {
+    background-color:white;
+    height:50px;
+    border: 1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.tab2header__input input{
+    border:none;
+    margin-left: 20px;
+    outline: 0;
+}
+
+.tab2header__input input::placeholder{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tab2header__input > .MuiSvgIcon-root{
+    color:lightgrey;
+    margin-right: 20px;
+}
