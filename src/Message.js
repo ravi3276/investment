@@ -12,10 +12,10 @@ function Message() {
                 <button>Member Search</button>
             </div>
             <div className="message__body">
-                <small className="message__bodymessage">
+                <p className="message__bodymessage">
                 Sign-up note-[Online Friends sv747] ▶ Gold purchase/sale 24 hour
                 inquiry Telegram sv747 ◀
-                </small>
+                </p>
 
                 <p className="message__date">
                 20.12.06 16:05 confirmed
@@ -58,7 +58,7 @@ function Message() {
                     The results of 58 bitcoin simulated investments is 23 
                     <a href="">Hole Under</a>
                     </p>
-
+                    
                     </div>
 
                     <div className="tab2header">

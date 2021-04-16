@@ -10,24 +10,35 @@
     display: flex;
     flex:0.70;
     flex-direction: column;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     /* width: 600px; */
+    border: 1px solid lightgray;
+    margin-top: 7px;
+    margin-left: 5px;
 }
 
 .post__headerlefttop{
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    border-bottom: 1px solid #f8f8f8;
+    /* justify-content:space-evenly; */
+    /* border-bottom: 1px solid #f8f8f8; */
 }
 
 .post__headerlefttop h5{
+    text-align:center;
     padding:15px;
     font-weight: 400;
+    width: 235px;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    background-color:#F4F4F6;
+
 }
 
 .post__headerlefttop h5:hover{
         background-color:white;
+        border: none;
+        /* border-left: 1px solid lightgrey; */
         font-weight:600;
         cursor: pointer;
         /* width: 250px; */
@@ -75,14 +86,15 @@
     display: flex;
     flex-direction: column;
     flex:1;
-    margin-left:4px;
-    background-color:lightgray;
+    /* margin-left:4px; */
+    /* background-color:lightgray; */
+    border: 1px solid lightgray;
+    margin-top: 7px;
 }
-
 .post__headerrighttop{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
 .post__headerrightinner{
@@ -91,16 +103,20 @@
 }
 
 .post__headerright h5{
+    text-align:center;
     padding:15px;
     font-weight: 400;
-    padding-right: 20px;
-    margin-right: 30px;
-    /* border-right: 1px solid #f8f8f8; */
+    width: 230px;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    background-color:#F4F4F6;
 }
-
+ 
 
 .post__headerright h5:hover{
     background-color:white;
+    border: none;
+    /* border-left: 1px solid lightgrey; */
     font-weight:600;
     cursor: pointer;
 }
@@ -156,8 +172,9 @@
 }
 
 .mock h2:hover{
-    color:white;
-    background-color:gray;
+    /* color:white; */
+    /* background-color:gray; */
+    border-bottom: 2px solid red;
     cursor: pointer;
     /* width:500%; */
 }

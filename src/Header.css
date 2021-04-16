@@ -1,8 +1,11 @@
 .header__top {
-        display: flex;
+        display: flex;   
+         /* flex: 1; */
         align-items: center;
         justify-content:space-between;
-        background-color: lightgrey;
+        /* background-color: lightgrey; */
+        /* new one added */
+        border-bottom: 1px solid grey;
         padding-top: 20px;
         padding-bottom:50px;
 }
@@ -46,9 +49,12 @@
 
 .header__down{
     display:flex;
+    /* flex: 1; */
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
+    border-bottom: 1px solid grey;
+    /* new one added */
 } 
 
 .demo h3{
